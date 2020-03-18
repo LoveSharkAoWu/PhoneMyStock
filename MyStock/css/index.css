@@ -1,16 +1,3 @@
-/*
-<!--
-
-* 17素材vip建站专区模块代码
-* 详尽信息请看官网：http://www.17sucai.com/pins/vip
-*
-* Copyright , 温州易站网络科技有限公司版权所有
-*
-* 请尊重原创，未经允许请勿转载。
-* 在保留版权的前提下可应用于个人或商业用途
-
--->
-*/
 
 html,body {
     color: #333;
@@ -230,9 +217,16 @@ a {
     display: -ms-flexbox;
     display: flex;
     z-index: 102;
-    background: #fff;
+    background:#04B431;/*#298A08*/
+   
 }
 
+
+.aui-navBar .topword{
+	
+	color: white;
+	
+}
 
 .aui-navBar-item {
     height: 44px;
@@ -480,7 +474,7 @@ a {
     position: relative;
     float: left;
     padding: 1px;
-    width: 20%;
+    width: 25%;
     box-sizing: border-box;
     margin: 5px 0;
 }
@@ -721,7 +715,7 @@ a {
     margin-left: 3%;
     margin-bottom: 0.8rem;
     background: #e4f6eb;
-    border-radius:3px;
+    border-radius:15%;
 }
 
 .aui-image-text .aui-flex-box h3 {
@@ -731,16 +725,16 @@ a {
 }
 
 .aui-shrink-img {
-    width: 55px;
-    height: 55px;
-}
-
-.aui-shrink-img img {
-    width: 55px;
-    height: 55px;
+   /**/
+    
     border: none;
     display: block;
+    float: right;
+    
+text-align:center; 
 }
+
+
 
 .aui-image-text .aui-flex {
     position: relative;
@@ -756,7 +750,7 @@ a {
     word-wrap: normal;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
+  
     text-align: justify;
     margin-bottom:0.3rem;
 }
@@ -767,13 +761,13 @@ a {
     word-wrap: normal;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
+   /* overflow: hidden;*/
     text-align: justify;
 }
 
 
 .aui-image-text-one  .one-color{
-    background:#f2f2fa;
+    background:#F0F8FF;
 }
 .aui-image-text-one  .one-color h3{
     color:#78429f;
@@ -827,10 +821,12 @@ a {
     margin-left:0.8rem;
 }
 
+
+
 .aui-flex-box h3{
     font-size:1rem;
     font-weight:normal;
-    margin-bottom:1.5rem;
+    margin-bottom:2rem;
 }
 
 .aui-flex-box h4{
@@ -838,6 +834,14 @@ a {
     font-weight:normal;
     color:#999;
 }
+
+
+
+.aui-flex-box .two-div{
+	width: 100%;
+	margin-top: 2px;
+}
+
 
 .aui-link-list .b-line:after{
     width:92%;
@@ -970,7 +974,7 @@ a {
 }
 
 .aui-tabBar-item-active .aui-tabBar-item-text {
-    color: #fe742b;
+    color: #04B431;
 }
 
 .icon-loan {

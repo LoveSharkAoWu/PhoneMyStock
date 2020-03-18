@@ -916,7 +916,7 @@ body,
   margin-bottom: 15px;
 }
 .btn-confirm {
-  background-color: #4f4f4f;
+  background-color:#04B431;
   color: #fff;
   margin: 0 40px;
 }
@@ -5529,6 +5529,7 @@ body {
 .aui-my-info {
   position: relative;
   overflow: hidden;
+  background: #04B431;
 }
 .aui-page-my .aui-icon {
   width: 22px;
