@@ -92,9 +92,16 @@ a {
     display: block;
     height: 0;
     visibility: hidden;
+   
 }
 
 .clearfix {
+	
+	
+	 border: solid 1.5px #04B431;
+	 border-radius: 5%;
+	 margin:0px 5px 10px 5px;
+	 
 }
 
 /* 必要布局样式css */
