@@ -217,7 +217,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     z-index: 102;
-    background:#04B431;/*#298A08*/
+    background:lightgreen;/*#298A08*/
    
 }
 
@@ -974,7 +974,7 @@ text-align:center;
 }
 
 .aui-tabBar-item-active .aui-tabBar-item-text {
-    color: #04B431;
+    color: lightgreen;
 }
 
 .icon-loan {
