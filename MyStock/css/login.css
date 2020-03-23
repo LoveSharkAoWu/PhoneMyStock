@@ -472,7 +472,7 @@ a {
     top: 14px;
     background-repeat: no-repeat;
     background-position: center;
-    color: lightgreen;
+    color: #90EE90;
 }
 
 .operate-eye-open {
@@ -666,7 +666,7 @@ a {
     border-radius:100%;
 }
 .agree{
-	color: lightgreen;
+	color: #90EE90;
 }
 .agree:active{
 	color: #FFB90F;
