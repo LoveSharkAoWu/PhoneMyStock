@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		
+	 <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"">
+	 
+	  <title>库存查询</title>
+	 <link rel="stylesheet" href="../css/mystock/search.css"  type="text/css" />
+	 <link href="../css/common/bootstrap.css" rel="stylesheet" type="text/css" />
+	
+	
+	
+	</head>
+	<body>
+		
+		<header class="myheader">
+			
+			<div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" onclick="javascript:history.go(-1);"><<</div>
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" id="header-middle">库存查询</div>
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" id="header-right"></div>
+               </div>
+            </div>
+            
+           
+           
+			
+		</header>
+		
+		
+		
+		<section>
+			
+			
+            	
+            	
+                <div>
+
+  <!-- Nav tabs -->
+  
+
+  <ul class="nav nav-tab nav-justified" " role="tablist" >
+     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="color:#90EE90 ;">包号搜索</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" style="color:#90EE90 ;">包中搜索</a></li>
+    
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    	
+    	
+    	<form>
+    		
+    		<div class="search-clock">
+    			
+    		<div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >包号：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<input type="text" placeholder="请输入包号；例如：1-1-1" >
+                  </div>
+               </div>
+            </div>
+            
+            
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >原木号：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<input type="text" placeholder="请输原木号">
+                  </div>
+               </div>
+            </div>
+            
+            <div class="container-fluid">
+               <div class="row">
+                   <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >长度：</div>
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" id="header-middle">
+                  	<input type="number" placeholder="最大值" >
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" id="header-right">
+                  	<input type="number" placeholder="最小值" >
+                  </div>
+               </div>
+            </div>
+    			
+    		<div class="container-fluid">
+               <div class="row">
+                   <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >宽度：</div>
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" id="header-middle">
+                  	<input type="number" placeholder="最大值" >
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" id="header-right">
+                  	<input type="number" placeholder="最小值" >
+                  </div>
+               </div>
+            </div>	
+    			
+    		</div>
+    		
+    		
+    		<div class="search-clock">
+    			
+    			<p>查询结果</p>
+    			<p>数量：&nbsp;<span>0</span></p>
+    			<p>面积：&nbsp;<span>0</span>&nbsp;平方米</p>
+    			
+    		</div>
+    		
+    		<div class="foot-button">
+    			
+    			<div class="foot-button-div">
+    			<input type="reset" value="&nbsp;&nbsp;&nbsp;&nbsp;重置&nbsp;&nbsp;&nbsp;&nbsp;" class="foot-button-reset"/>
+    			<input type="submit" value="开始查询" class="foot-button-submit"/>
+    			</div>
+    		</div>
+    		
+    	</form>
+    	
+    	
+    	
+    </div>
+    
+    <!--包中查询-->
+    <div role="tabpanel" class="tab-pane" id="profile">bb.</div>
+    
+  </div>
+
+</div>
+            	
+            
+			
+			
+			
+		</section>
+		
+		
+		<script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+	    <script type="text/javascript" src="../js/common/bootstrap.js" ></script>
+	</body>
+</html>

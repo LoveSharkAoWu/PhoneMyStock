@@ -1,0 +1,65 @@
+
+
+/*头部*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.myheader {
+	
+	 width: 100%;
+	 padding: 20px 0px;
+	 background: #90EE90;
+	 color: white;
+	 font-size: 18px;
+}
+
+.myheader #header-middle {
+	
+	text-align: center;
+	
+	
+}
+.myheader #header-right {
+	
+	text-align: right;
+	
+}
+
+.myheader .header-two {
+	
+	margin-top: 20px;
+	padding: 2px;
+	text-align: center;
+	font-size: 15px;
+	
+	
+}
+
+.header-two .header-two-center span{
+	
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 30%;
+   
+	
+}
+
+.stock-list {
+	
+	color: rosybrown;
+	
+	background: whitesmoke;
+	border-radius: 5%;
+	margin: 20px 5px;
+	padding: 5px;
+	
+	
+}
+.stock-list .select-words {
+	
+	color: goldenrod;
+	
+}

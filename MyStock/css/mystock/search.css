@@ -1,0 +1,103 @@
+/*头部*/
+body{
+	margin: 0px auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.myheader {
+	
+	 width: 100%;
+	 padding: 10px 0px;
+	 background: #90EE90;
+	 color: white;
+	 font-size: 18px;
+}
+
+.myheader #header-middle {
+	
+	text-align: center;
+	
+	
+}
+.myheader #header-right {
+	
+	text-align: right;
+	margin: 10px;
+	
+}
+
+
+
+
+form .search-clock {
+	
+	margin: 20px 10px;
+	
+	background: whitesmoke;
+	border-radius: 5%;
+	padding: 5px;
+	
+	font-size: 18px;
+	
+}
+
+form .search-clock .row,p{
+	
+	font-size: 18px;
+	padding: 5px;
+	border-bottom: 1px solid gainsboro;
+	overflow: hidden;
+	
+}
+
+form .search-clock input{
+	
+	border: none;
+	background-color: whitesmoke;
+	
+}
+
+
+form .foot-button input{
+	
+	
+	border-radius: 5%;
+	font-size: 20px;
+	margin: 10px 30px;
+	padding: 10px 30px;
+	
+	
+	
+	
+}
+
+form .foot-button .foot-button-div {
+	
+	position: absolute;
+	bottom: 10px;
+	
+     text-align: center;
+     
+	
+}
+
+form .foot-button .foot-button-reset{
+	
+	background-color: whitesmoke;
+	border: none;
+	
+}
+
+form .foot-button .foot-button-submit{
+	
+	background-color: #90EE90;
+	color: white;
+	border: none;
+	
+}
