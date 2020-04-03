@@ -75,6 +75,7 @@ section .table-top .container-fluid .row {
 
 section .table-detail {
 	
+	width: 100%;
 	margin:20px 10px;
 	background: whitesmoke;
 	border: 10%;
@@ -83,8 +84,30 @@ section .table-detail {
 	
 }
 
-section .table-detail .row{
+section .table-detail table {
+	
+	width: 100%;
+	
+	
+}
+
+section .table-detail tr {
 	
 	border-bottom: 1px solid gainsboro;
 	
 }
+
+section .table-detail tr th {
+	
+	text-align: center;
+	
+}
+
+section .table-detail tr td {
+	font-size: 12px;
+	color: darkslategrey;
+	width: 12%;
+	text-align: center;
+	
+}
+
