@@ -43,7 +43,7 @@
   
 
   <ul class="nav nav-tab nav-justified" " role="tablist" >
-     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="color:#90EE90 ;">包号搜索</a></li>
+     <li role="presentation" class="active" id="mysearch"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="color:#90EE90 ;">包号搜索</a></li>
     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" style="color:#90EE90 ;">包中搜索</a></li>
     
   </ul>
@@ -112,6 +112,136 @@
     			
     		</div>
     		
+    		
+    			
+    			<div class="foot-button-div">
+    			<input type="reset" value="&nbsp;&nbsp;&nbsp;&nbsp;重置&nbsp;&nbsp;&nbsp;&nbsp;" class="foot-button-reset"/>
+    			<input type="submit" value="开始查询" class="foot-button-submit" />
+    			</div>
+    		
+    		
+    	</form>
+    	
+    	
+    	
+    </div>
+    
+    <!--包中查询-->
+    <div role="tabpanel" class="tab-pane" id="profile">
+    	
+    	<form>
+    		
+    		<div class="search-clock">
+    			
+    			
+    		<div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >柜号：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<input type="text" placeholder="请输入柜号" >
+                  </div>
+               </div>
+            </div>
+    			
+    		<div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >包号：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<input type="text" placeholder="请输入包号；例如：1-1-1" >
+                  </div>
+               </div>
+            </div>
+            
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >树种：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<select name="">
+                  		<option value="">请选择树种</option>
+                  		<option value="">树种1</option>
+                  		<option value="">树种2</option>
+                  	</select>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >等级：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<select name="">
+                  		<option value="">请选择等级</option>
+                  		<option value="">等级1</option>
+                  		<option value="">等级2</option>
+                  	</select>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >纹理：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<select name="">
+                  		<option value="">请选择纹理</option>
+                  		<option value="">纹理1</option>
+                  		<option value="">纹理2</option>
+                  	</select>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >风格：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<select name="">
+                  		<option value="">请选择风格</option>
+                  		<option value="">风格1</option>
+                  		<option value="">风格2</option>
+                  	</select>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >工艺：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<select name="">
+                  		<option value="">请选择工艺</option>
+                  		<option value="">工艺1</option>
+                  		<option value="">工艺2</option>
+                  	</select>
+                  </div>
+               </div>
+            </div>
+            
+            
+            
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4" >厚度：</div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8" id="header-middle">
+                  	<input type="text" placeholder="请输入厚度">
+                  </div>
+               </div>
+            </div>
+            
+       
+    			
+    		</div>
+    		
+    		
+    		<div class="search-clock">
+    			
+    			<p>查询结果</p>
+    			<p>数量：&nbsp;<span>0</span></p>
+    			<p>面积：&nbsp;<span>0</span>&nbsp;平方米</p>
+    			
+    		</div>
+    		
     		<div class="foot-button">
     			
     			<div class="foot-button-div">
@@ -124,10 +254,9 @@
     	
     	
     	
+    	
+    	
     </div>
-    
-    <!--包中查询-->
-    <div role="tabpanel" class="tab-pane" id="profile">bb.</div>
     
   </div>
 
@@ -142,5 +271,10 @@
 		
 		<script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
 	    <script type="text/javascript" src="../js/common/bootstrap.js" ></script>
+	    <script type="text/javascript">
+	    	
+	    	
+	    	
+	    </script>
 	</body>
 </html>

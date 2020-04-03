@@ -4,6 +4,11 @@ body{
 	overflow: hidden;
 }
 
+body{
+	
+	background-color: whitesmoke;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -16,6 +21,9 @@ a {
 	 background:white;
 	 
 	 font-size: 18px;
+	 margin-bottom: 20px;
+	 border-bottom: 1px solid gainsboro;
+	 overflow: hidden;
 }
 
 .myheader #header-middle {
@@ -27,26 +35,39 @@ a {
 .myheader #header-right {
 	
 	text-align: right;
-	margin: 10px;
+	/*margin: 10px;*/
 	
 }
 
 
 section {
 	
-	background: whitesmoke;
+	/*background: whitesmoke;*/
 	
 }
 
 section .table-top {
 	
-	margin: 10px;
+	margin: 5px;
+	
 	background:  #90EE90;
 	border-radius: 5%;
+	padding: 10px 10px;
+	
+}
+
+
+
+section .table-top .container-fluid .row {
+	
+	
+	padding: 2px 0px;
+	
 	
 }
 
 .container-fluid .row div {
+	
 	
 	text-align: center;
 	
@@ -54,9 +75,10 @@ section .table-top {
 
 section .table-detail {
 	
-	margin:20px 5px;
-	background: white;
-	border: 5%;
+	margin:20px 10px;
+	background: whitesmoke;
+	border: 10%;
+	font-size: 10px;
 	
 	
 }

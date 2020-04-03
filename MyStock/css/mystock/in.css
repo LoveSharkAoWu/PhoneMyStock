@@ -11,7 +11,7 @@ body{
 
 a {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 .myheader {
@@ -62,9 +62,9 @@ a {
 }
 .stock-list .other-row {
 	
-	padding: 5px 5px;
-	margin: 5px 50px;
+	
 	background: ghostwhite;
 	border-radius: 5%;
+	font-size: 11px;
 	
 }
