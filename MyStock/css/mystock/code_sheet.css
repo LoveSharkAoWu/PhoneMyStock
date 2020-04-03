@@ -73,12 +73,19 @@ section .table-top .container-fluid .row {
 	
 }
 
-section .table-detail {
+section {
 	
-	width: 100%;
-	margin:20px 10px;
+	overflow: hidden;
 	background: whitesmoke;
-	border: 10%;
+	border-radius: 10%;
+}
+
+section .table-detail {
+	overflow: hidden;
+	width: 100%;
+	margin:15px 5px 5px 5px;
+	
+
 	font-size: 10px;
 	
 	
@@ -93,6 +100,8 @@ section .table-detail table {
 
 section .table-detail tr {
 	
+	
+	
 	border-bottom: 1px solid gainsboro;
 	
 }
@@ -100,6 +109,8 @@ section .table-detail tr {
 section .table-detail tr th {
 	
 	text-align: center;
+    padding: 10px 8px;
+    font-size: 11px;
 	
 }
 
@@ -108,6 +119,7 @@ section .table-detail tr td {
 	color: darkslategrey;
 	width: 12%;
 	text-align: center;
+	padding: 4px 4px;
 	
 }
 
